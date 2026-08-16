@@ -19,5 +19,4 @@ searchStr="$2"
 noOfFindings=$(grep -r $searchStr $filesDir|wc -l)
 noOfFiles=$(find $filesDir -type f|wc -l)
 
-echo "Die Anzahl der Dateien beträgt $noOfFiles und die Anzahl der übereinstimmenden Zeilen beträgt $noOfFindings"
 echo "The number of files are $noOfFiles and the number of matching lines are $noOfFindings"
